@@ -1,0 +1,27 @@
+.my-card{
+        box-Shadow: var(--shadow);
+        margin: 2rem;
+        border-Radius: 0.5rem;
+        min-Width: 4px;
+        flex: 1;
+      };
+
+.ant-card-head-title{
+    margin: 0rem !important;
+    font-weight: 600;
+
+
+}
+
+.my-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+.mu-card p{
+    margin: 0;
+}

@@ -1,0 +1,27 @@
+.navbar {
+  position: sticky;
+  width: 100%;
+  padding: 1.25rem 0.05rem;
+  background-color: rgb(70, 21, 122);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem; /* Removed space */
+  margin: 0;
+}
+
+.link {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.link:hover {
+  opacity: 1;
+  transition: opacity 0.3s; /* Specified the property being transitioned */
+}
